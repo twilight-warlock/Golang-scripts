@@ -3,11 +3,12 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
  
 func main() {
-	// today := time.Now()
-	var t int = 25
+	today := time.Now()
+	var t int = today.Day()
  
 	switch t {
 	case 1:
