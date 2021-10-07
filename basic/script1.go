@@ -1,3 +1,4 @@
+// Declaration with initialization
 package main
 
 import "fmt"
